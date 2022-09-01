@@ -4,21 +4,20 @@ Here are some of my best Data Science Projects. I have explored various machine-
 
 ***
 
-[Examining the effect of environmental factors and weather on demand of Bike rentals](https://github.com/suvo-gh/Bike-Rental-Demand/blob/main/Bike_Rental_Demand.ipynb)
+[Portuguese Bank Marketing Analysis](https://github.com/alaks1377/Portuguese_Bank-Marketing-_Analysis)
 
-<img src="images/seoul-bikes.jpeg?raw=true"/>
+<img src="images/PB.jpg?raw=true"/>
 
 **Skills used:** Python, Pandas, SKlearn, Matplotlib
 
-**Project Objective:** Predicting Bike rental demand on basis of weather and seasonal factors in advance to take appropiate measures which finally will result in bike utilization.
+**Project Objective:** In this project I worked with real world data which is related with direct marketing campaigns (phone calls) of a Portuguese banking institution. The classification goal is to predict if the client will subscribe a term deposit.
 
-**Quantifiable result:** We could predict the Bike rental demand resulting in [**94%** accuracy](https://github.com/suvo-gh/Bike-Rental-Demand/blob/main/Bike_Rental_Demand.ipynb).
 
-- Used Random Forest Regressor to predict the number of bikes rented in the city of Seoul
-- The data had quite a few categorical variables which were encoded for use in the model
-- Encoded categorical variables to numeric using Sklearn due to the presence of many string columns
-- Cross Validation for validating the training data and model fit.
-- Fit a Random Forest Regressor with high prediction accuracy through iteration
+**Quantifiable result:** We could classify whether client has subscribed the term deposit or not [**86%** accuracy](https://github.com/alaks1377/Portuguese_Bank-Marketing-_Analysis).
+
+- Used Logistic Regression to classify whether term deposit is subscribed or not.
+- Classified subscriotion depending on selected important features.
+- Explored a machine learning approach to marketing analysis.
 
 ***
 
