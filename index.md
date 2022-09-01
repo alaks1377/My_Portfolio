@@ -21,34 +21,69 @@ Here are some of my best Data Science Projects. I have explored various machine-
 
 ***
 
-[Diagnosis of breast cancer using a logistic classifier](https://github.com/suvo-gh/Orthopedic-Patients-Classification)
+[Orthopedic Patients Prediction](https://github.com/alaks1377/Orthopedic_Patients_Prediction)
 
-<img src="images/breast-cancer.jpeg?raw=true"/>
+<img src="images/nb.png?raw=true"/>
 
 **Skills used:** Python, Pandas, SKlearn, Matplotlib
 
-**Project Objective:** Identification of the type of Breast Cancer for quicker diagnosis. This assists professionals in the medical field to take appropiate measures to accurately diagnose, treat and save lives. 
+**Project Objective:** In this project we are provided with multiple instances of orthopedic parameters according to that I classified whether the patients are Normal or Abnormal.
+ 
 
-**Quantifiable result:** We could Classify the type of tumor resulting in [**80%** accuracy using K-means algorithm](https://github.com/suvo-gh/Orthopedic-Patients-Classification).
+**Quantifiable result:** We could Classify the type of tumor resulting in [**89%** accuracy using NB algorithm](https://github.com/alaks1377/Orthopedic_Patients_Prediction))
 
-- Used logistic regression to identify a tumour as malignant or benign based on various attributes
-- Classified tumors as benign or malignant by studying patterns in measured attributes of those tumors
-- Used Logistic regression classifier & optimized the accuracy by using the ROC curve
-- Explored a machine learning approach to medical diagnosis
+- Used K-Nearest-Neighbors and GaussianNB to classify Normal or Abnormal paitents.
+- Analysed different parameters to classify patients.
+- Explored a machine learning approach to Medical Analysis.
 
 ***
 
-[Identifying given picture is a Cat or a Dog](https://github.com/suvo-gh/Cat_or_Dog_prediction/blob/main/CNN_Project%20(Image_Classification).ipynb)
+[Employee Compensation](https://github.com/alaks1377/Employee-Compensation)
 
-<img src="images/Dog-and-Cat.jpeg?raw=true"/>
+<img src="images/ec.jpg?raw=true"/>
+
+**Skills used:** Python, Pandas, SKlearn, Matplotlib, Clustering, Elbow
+
+**Project Objective:** The San Francisco Controller’s Office maintains a database of the salary and benefits, paid to City employees since fiscal year 2013. This data is summarized and presented on the Employee Compensation.
+ 
+
+**Quantifiable result:** We have grouped employees with [**3 Clusters**](https://github.com/alaks1377/Employee-Compensation).
+
+- Used KMeans Algorithm
+- Used Elbow method to get the optimal number of cluster.
+- Explored an Unsupervised learning approach to create data group.
+
+***
+
+[Talking Data Fraud Detection](https://github.com/alaks1377/talking_data_fraud_detection)
+
+<img src="images/FD.png?raw=true"/>
+
+**Skills used:** Python, Pandas, SKlearn, Matplotlib, XGBoost, Ensemble technique
+
+**Project Objective:** In this problem, we will use the features associated with clicks, such as IP address, operating system, device type, time of click etc. to predict the probability of a click being fraud.
+
+ 
+
+**Quantifiable result:** We could cpredict whether a given click resulted in a download or not [**88%** Accuracy using XGBoost](https://github.com/alaks1377/talking_data_fraud_detection).
+
+- Used the XGboost Classifier algorithm to classify the Pepole who      downloaded the app after watching the advertisement and identify the click fraud
+- Compared predictive performance by fitting a BaggingClassifier model to the data
+- Selected best model based on train and test performance
+- Explored Ensemble technique.
+
+***
+
+[Hand Writing Digits Recognition](https://github.com/alaks1377/hand-writting-digits-recognition)
+
+<img src="images/MD.png?raw=true"/>
 
 **Skills used:** Python, Keras, Tensorflow
 
-**Project Objective:** Prediction of whether a given image is a Cat or a Dog using Convolutional Neural Networks which may be further implemented as a feature in a bigger project.
+**Project Objective:** Mnist is a dataset with 70,000 of handwritten digits. Here I have predicted the mnist digits by using Convolution Neural Network.
 
-**Quantifiable result:** We could train the Convolutional Neural Network to attain a accuracy of [**80%** using **23** epochs](https://github.com/suvo-gh/Cat_or_Dog_prediction/blob/main/CNN_Project%20(Image_Classification).ipynb).
+**Quantifiable result:** We could train the Convolutional Neural Network to attain a accuracy of [**98%** using **5** epochs](https://github.com/alaks1377/hand-writting-digits-recognition).
 
 - Added multiple convolution and pooling layers
-- Training model on basis of given data
-- Fitting the CNN to see if the provided image is dog or cat
-- Data Source: https://drive.google.com/drive/folders/15SG-chdqEwcrNAY39RTZJjvl-UwiZo_e?usp=sharing
+- Training model on basis of Mnist data
+- Data Source: MNIST
